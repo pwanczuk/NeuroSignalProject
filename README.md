@@ -14,6 +14,33 @@ The study will:
 By the end of this project, we aim to accomplish two main goals:
 1. **Achieve a classification accuracy of at least 75%** by the Gradient Boosting Model for all brain regions (Hippocampus, Entorhinal cortex, and Amygdala) with respect to participant performance during memory tasks.
 2. **Identify which phase of the task (Encoding, Maintenance, Test)** neural firing rate is most deterministic of participant performance.
+# Data Files Description
+
+The `.csv` files provided in this repository are **preprocessed datasets** that are ready for direct use with the decoding models described in this project. Each file contains organized neuronal data corresponding to specific brain regions, trial types, and task phases.
+
+## File Naming Convention
+
+Each file name encodes information about the dataset it contains, following this structure:
+
+- **Brain Region**:
+  - `Hippo` — Hippocampal Head
+  - `PH` — Hippocampal Body
+  - `Amyg` — Amygdala
+  - `ECL` — Entorhinal Cortex
+
+- **Trial Type**:
+  - `4` — 4-square trial
+  - `6` — 6-square trial
+
+- **Task Phase**:
+  - `m` — Memorization (Encoding)
+  - `r` — Retention (Maintenance)
+  - `p` — Probe (Test)
+
+## Example
+
+A file named: Patient1_Amyg_4m.csv
+
 
 ---
 # Findings
