@@ -16,7 +16,9 @@ By the end of this project, we aim to accomplish two main goals:
 2. **Identify which phase of the task (Encoding, Maintenance, Test)** neural firing rate is most deterministic of participant performance.
 # Data Files Description
 These files are intended to be used for GBM_Build&Assesment.ipynb
+
 They are generated utilizing Preprocessing_File.ipynb
+
 The `.csv` files provided in this repository are **preprocessed datasets** that are ready for direct use with the decoding models described in this project. Each file contains organized neuronal data corresponding to specific brain regions, trial types, and task phases.
 
 ## File Naming Convention
